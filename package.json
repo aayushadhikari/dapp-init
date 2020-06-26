@@ -1,0 +1,34 @@
+{
+  "name": "dapp-init",
+  "version": "1.0.0",
+  "description": "blockchain todo list",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushadhikari/dapp-init.git"
+  },
+  "author": "Aayush Adhikari",
+  "license": "ISC",
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/aayushadhikari/dapp-init/issues"
+  },
+  "homepage": "https://github.com/aayushadhikari/dapp-init#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.4",
+    "truffle": "^5.1.32",
+    "truffle-contract": "^4.0.31"
+  }
+}
